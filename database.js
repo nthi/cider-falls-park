@@ -1,6 +1,6 @@
 // Responsibility– hold tables: 
 // arrays of objects for parkAreas, guests, services, serviceAreaBridge
-	
+
 
 
 const database = {
@@ -30,7 +30,6 @@ const database = {
             name: "Pine Bluffs Trail"
         }
     ],
-
     guests: [
         {
             id: 1,
@@ -80,9 +79,7 @@ const database = {
             id: 12,
             name: "Blanche Wiza"
         }
-
     ],
-
     services: [
         {
             id: 1,
@@ -124,116 +121,98 @@ const database = {
             id: 10,
             name: "Zip Lines"
         }
-
     ],
     serviceAreaBridge: [
         {
             id: 1,
-            areaId: 3,
-            serviceId: 1
-
+            areaId: 1,
+            serviceId: 7
         },
         {
             id: 2,
-            areaId: 3,
-            serviceId: 2
-
-        },        
+            areaId: 1,
+            serviceId: 8
+        },
         {
             id: 3,
-            areaId: 3,
-            serviceId: 3
-
-        },        
+            areaId: 1,
+            serviceId: 9
+        },
         {
             id: 4,
-            areaId: 2,
-            serviceId: 4
-
-        },        
+            areaId: 1,
+            serviceId: 5
+        },
         {
             id: 5,
             areaId: 2,
-            serviceId: 5
-
-        },        
+            serviceId: 4
+        },
         {
             id: 6,
             areaId: 2,
-            serviceId: 6
-
+            serviceId: 5
         },
         {
             id: 7,
-            areaId: 1,
-            serviceId: 7
-
+            areaId: 2,
+            serviceId: 6
         },
+
         {
             id: 8,
-            areaId: 1,
-            serviceId: 8
-
+            areaId: 3,
+            serviceId: 1
         },
         {
             id: 9,
-            areaId: 1,
-            serviceId: 9
-
+            areaId: 3,
+            serviceId: 2
         },
         {
             id: 10,
-            areaId: 1,
-            serviceId: 5
-
+            areaId: 3,
+            serviceId: 3
         },
         {
             id: 11,
             areaId: 4,
             serviceId: 3
-
         },
         {
             id: 12,
             areaId: 4,
             serviceId: 4
-
         },
         {
             id: 13,
             areaId: 5,
             serviceId: 7
-
         },
         {
             id: 14,
             areaId: 5,
             serviceId: 8
-
         },
         {
             id: 15,
             areaId: 5,
             serviceId: 9
-
         },
         {
             id: 16,
             areaId: 6,
             serviceId: 4
-
         },
         {
             id: 17,
             areaId: 6,
             serviceId: 5
-
         },
         {
             id: 18,
             areaId: 6,
             serviceId: 10
-
         }
 
     ]
@@ -242,17 +221,17 @@ const database = {
 // Responsibility: export copies of the tables to other modules
 // 		Functions: 
 export const getParkAreas = () => {
-return database.parkAreas.map(area => ({...area}))
+    return database.parkAreas.map(area => ({ ...area }))
 }
 
 export const getGuests = () => {
-return database.guests.map(guest => ({...guest}))
+    return database.guests.map(guest => ({ ...guest }))
 }
 export const getServices = () => {
-return database.services.map(service => ({...service}))
+    return database.services.map(service => ({ ...service }))
 }
 export const getServiceAreaBridge = () => {
-return database.serviceAreaBridge.map(bridge => ({...bridge}))
+    return database.serviceAreaBridge.map(bridge => ({ ...bridge }))
 }
 // 		No parameters
 // 		Should return copy of the array when called
