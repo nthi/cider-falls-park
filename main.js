@@ -10,7 +10,7 @@ const applicationHTML = `
 
 <section class="content">
     <section class="parkArea">
-        <h2>Park Areas</h2>
+        <h2 class="parkArea--title">Park Areas</h2>
         ${ParkAreaList()}
     </section>
     <section class="guestArea">

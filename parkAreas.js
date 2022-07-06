@@ -9,7 +9,7 @@ const parkAreas = getParkAreas()
 export const ParkAreaList = () => {
 	let parkAreaHTML = `<section class="parkArea--main">`
 	for (const area of parkAreas) {
-	parkAreaHTML+= `<section class="parkArea--singleArea"> ${area.name} </section>`
+	parkAreaHTML+= `<section class="parkArea--${area.name}"> ${area.name} </section>`
 	}
 	parkAreaHTML+= `</section>`
 return parkAreaHTML

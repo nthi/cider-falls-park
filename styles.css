@@ -37,6 +37,17 @@ rose color: #F5006A */
     background-color:#BBDFC5;
     color: #41393E;
     width:80%;
+    padding: 10px;
+    border: 5px solid #874104;
+
+}
+
+.parkArea--title {
+    display: flex;
+    justify-content: center;
+    width: 100%;
+    height: 20%;
+    border-bottom: 5px solid #874104;
 }
 
 .parkArea--main {
@@ -44,17 +55,63 @@ rose color: #F5006A */
     display: flex;
     flex-flow: row wrap;
     justify-content: space-between;
+    width: 100%;
 
 
 }
 
-.parkArea--singleArea {
+.parkArea--Lodge {
     font-family: Verdana, Geneva, Tahoma, sans-serif;
     display: flex;
     width: 30%;
     justify-content: space-around;
-    border: 5px solid #F5006A;
-    border-radius: 25px 10px 25px 10px;
+    border: 5px solid #874104;
+    border-radius: 10px 25px 25px 25px;
+    margin-bottom: 5px;
+}
+.parkArea--Lost {
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    display: flex;
+    width: 30%;
+    justify-content: space-around;
+    border: 5px solid #874104;
+    border-radius: 10px 10px 25px 25px;
+    margin-bottom: 5px;
+}
+.parkArea--Chamfort {
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    display: flex;
+    width: 30%;
+    justify-content: space-around;
+    border: 5px solid #874104;
+    border-radius: 25px 10px 25px 25px;
+    margin-bottom: 5px;
+}
+.parkArea--Gander {
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    display: flex;
+    width: 30%;
+    justify-content: space-around;
+    border: 5px solid #874104;
+    border-radius: 25px 25px 25px 10px;
+    margin-bottom: 5px;
+}
+.parkArea--Campgrounds {
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    display: flex;
+    width: 30%;
+    justify-content: space-around;
+    border: 5px solid #874104;
+    border-radius: 25px 25px 10px 10px;
+    margin-bottom: 5px;
+}
+.parkArea--Pine {
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    display: flex;
+    width: 30%;
+    justify-content: space-around;
+    border: 5px solid #874104;
+    border-radius: 25px 25px 10px 25px;
     margin-bottom: 5px;
 }
 
@@ -64,6 +121,7 @@ rose color: #F5006A */
     flex-direction: column;
     justify-content: center;
     background-color:#F5006A;
+    width: 20%;
 
 }
 
