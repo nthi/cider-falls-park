@@ -1,8 +1,5 @@
 // Responsibility– hold tables: 
 // arrays of objects for parkAreas, guests, services, serviceAreaBridge
-
-
-
 const database = {
     parkAreas: [
         {

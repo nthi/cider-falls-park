@@ -1,0 +1,79 @@
+/* black coffee color: #41393E
+sandy brown color: #F1A96A
+purple color: #8B85C1
+turquoise color: #BBDFC5
+rose color: #F5006A */
+
+
+#container {
+    display: flex;
+    flex-flow: row;
+}
+
+.header {
+    display: flex;
+    flex-flow: row nowrap;
+    background-color: #F1A96A;
+    color: #41393E;
+    width: 100%;
+
+}
+
+.content {
+    display:flex;
+    flex-flow: row;
+    justify-content: space-between;
+    width: 100%;
+    color:#41393E;
+
+}
+
+.parkArea {
+    display: flex;
+    flex-flow: row wrap;
+    background-color:#BBDFC5;
+    color: #41393E;
+    width:80%;
+}
+
+.parkArea--main {
+    display: flex;
+    flex-flow: row wrap;
+    justify-content: space-between;
+
+
+}
+
+.parkArea--singleArea {
+    display: flex;
+    width: 30%;
+    justify-content: space-around;
+    border: 5px solid #F5006A;
+    border-radius: 25px 10px 25px 10px;
+    margin-bottom: 5px;
+}
+
+.guestArea {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    background-color:#F5006A;
+
+}
+
+.footer {
+    display: flex;
+    flex-flow: row nowrap;
+    justify-content: space-between;
+    align-items:baseline;
+    background-color: #8B85C1;
+    width: 100%;
+}
+
+.addressBlock {
+    padding-left: 1em;
+}
+
+.email {
+    padding-right: 1em;
+}
