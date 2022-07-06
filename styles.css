@@ -11,6 +11,7 @@ rose color: #F5006A */
 }
 
 .header {
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
     display: flex;
     flex-flow: row nowrap;
     background-color: #F1A96A;
@@ -20,6 +21,7 @@ rose color: #F5006A */
 }
 
 .content {
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
     display:flex;
     flex-flow: row;
     justify-content: space-between;
@@ -29,6 +31,7 @@ rose color: #F5006A */
 }
 
 .parkArea {
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
     display: flex;
     flex-flow: row wrap;
     background-color:#BBDFC5;
@@ -37,6 +40,7 @@ rose color: #F5006A */
 }
 
 .parkArea--main {
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
     display: flex;
     flex-flow: row wrap;
     justify-content: space-between;
@@ -45,6 +49,7 @@ rose color: #F5006A */
 }
 
 .parkArea--singleArea {
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
     display: flex;
     width: 30%;
     justify-content: space-around;
@@ -54,6 +59,7 @@ rose color: #F5006A */
 }
 
 .guestArea {
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
     display: flex;
     flex-direction: column;
     justify-content: center;
@@ -62,6 +68,7 @@ rose color: #F5006A */
 }
 
 .footer {
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
     display: flex;
     flex-flow: row nowrap;
     justify-content: space-between;
