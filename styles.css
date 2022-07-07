@@ -12,12 +12,20 @@ rose color: #F5006A */
 
 .header {
     font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-size: x-large;
     display: flex;
     flex-flow: row nowrap;
-    background-color: #F1A96A;
+    background-color: #DB6B11;
     color: #41393E;
     width: 100%;
+    height: 15%;
 
+}
+
+.logo {
+    height: 100px;
+    width:auto;
+    margin: 10px;
 }
 
 .content {
@@ -38,7 +46,6 @@ rose color: #F5006A */
     color: #41393E;
     width:80%;
     padding: 10px;
-    border: 5px solid #874104;
 
 }
 
@@ -46,7 +53,7 @@ rose color: #F5006A */
     display: flex;
     justify-content: center;
     width: 100%;
-    height: 20%;
+    height: 10%;
     border-bottom: 5px solid #874104;
 }
 
@@ -56,15 +63,15 @@ rose color: #F5006A */
     flex-flow: row wrap;
     justify-content: space-between;
     width: 100%;
-
-
 }
 
 .parkArea--Lodge {
     font-family: Verdana, Geneva, Tahoma, sans-serif;
     display: flex;
+    flex-flow: row wrap;
     width: 30%;
     justify-content: space-around;
+    text-align: center;
     border: 5px solid #874104;
     border-radius: 10px 25px 25px 25px;
     margin-bottom: 5px;
@@ -72,8 +79,10 @@ rose color: #F5006A */
 .parkArea--Lost {
     font-family: Verdana, Geneva, Tahoma, sans-serif;
     display: flex;
+    flex-flow: row wrap;
     width: 30%;
     justify-content: space-around;
+    text-align: center;
     border: 5px solid #874104;
     border-radius: 10px 10px 25px 25px;
     margin-bottom: 5px;
@@ -81,8 +90,10 @@ rose color: #F5006A */
 .parkArea--Chamfort {
     font-family: Verdana, Geneva, Tahoma, sans-serif;
     display: flex;
+    flex-flow: row wrap;
     width: 30%;
     justify-content: space-around;
+    text-align: center;
     border: 5px solid #874104;
     border-radius: 25px 10px 25px 25px;
     margin-bottom: 5px;
@@ -90,8 +101,10 @@ rose color: #F5006A */
 .parkArea--Gander {
     font-family: Verdana, Geneva, Tahoma, sans-serif;
     display: flex;
+    flex-flow: row wrap;
     width: 30%;
     justify-content: space-around;
+    text-align: center;
     border: 5px solid #874104;
     border-radius: 25px 25px 25px 10px;
     margin-bottom: 5px;
@@ -99,8 +112,10 @@ rose color: #F5006A */
 .parkArea--Campgrounds {
     font-family: Verdana, Geneva, Tahoma, sans-serif;
     display: flex;
+    flex-flow: row wrap;
     width: 30%;
     justify-content: space-around;
+    text-align: center;
     border: 5px solid #874104;
     border-radius: 25px 25px 10px 10px;
     margin-bottom: 5px;
@@ -108,8 +123,10 @@ rose color: #F5006A */
 .parkArea--Pine {
     font-family: Verdana, Geneva, Tahoma, sans-serif;
     display: flex;
+    flex-flow: row wrap;
     width: 30%;
     justify-content: space-around;
+    text-align: center;
     border: 5px solid #874104;
     border-radius: 25px 25px 10px 25px;
     margin-bottom: 5px;
@@ -120,8 +137,9 @@ rose color: #F5006A */
     display: flex;
     flex-direction: column;
     justify-content: center;
-    background-color:#F5006A;
+    background-color: #42A1F7;
     width: 20%;
+    padding-left: 2em;
 
 }
 
