@@ -55,9 +55,26 @@ export const listServiceAreasOnSite = () => {
     <h2 class="servicesArea--title">Services</h2>
     <p id="listServices">`
     for (const service of services) {
-            serviceSectionHTML += `<span id="serviceName--${service.name}">${service.name}</span>`
+            serviceSectionHTML += `<span id="serviceName--${service.id}">${service.name}</span>`
         }
     serviceSectionHTML+= `</p>`
     return serviceSectionHTML
 }
 
+//                alertString += `${service.name} is offered in: `
+//window.alert(`${} is offered in ${}.`)
+
+// for (const service of services) {
+//         //debugger
+//         for (const singleLoop of areaService) {
+//             //debugger
+//             if (singleLoop.serviceId === service.id)
+//             serviceSectionHTML += `${service.name}`
+//         }
+//     }
+//     serviceSectionHTML+= `</section>`
+//     return serviceSectionHTML
+// }
+
+// let areas = []
+// areas.push(singleLoop.areaId)
