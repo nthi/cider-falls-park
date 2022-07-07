@@ -10,6 +10,11 @@ rose color: #F5006A */
     flex-flow: row;
 }
 
+#newContainer {
+    display: flex;
+    flex-flow: row;
+}
+
 .header {
     font-family: Verdana, Geneva, Tahoma, sans-serif;
     font-size: x-large;
@@ -43,6 +48,15 @@ rose color: #F5006A */
     background-color:#F1A96A;
     color:#41393E;
     padding-left: 10px;
+    justify-content: space-between;
+    width: 100%;
+}
+
+#listServices {
+    display:flex;
+    flex-flow: row nowrap;
+    padding: 10px;
+    justify-content:space-evenly;
 }
 
 .content--lower {

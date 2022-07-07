@@ -51,16 +51,13 @@ export const getAllAreaServices = (areaID) => {
 //then send that bridge table's areaID to the html string
 
 export const listServiceAreasOnSite = () => {
-    let serviceSectionHTML = `<section id="listServices">`
+    let serviceSectionHTML = `
+    <h2 class="servicesArea--title">Services</h2>
+    <p id="listServices">`
     for (const service of services) {
-        for (const singleLoop of areaService) {
-            if (singleLoop.serviceId === services.id)
-            serviceSectionHTML += `${service}`
+            serviceSectionHTML += `<span id="serviceName--${service.name}">${service.name}</span>`
         }
-    }
-    serviceSectionHTML+= `</section>`
+    serviceSectionHTML+= `</p>`
     return serviceSectionHTML
 }
 
-// let areas = []
-// areas.push(singleLoop.areaId)

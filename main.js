@@ -24,7 +24,6 @@ const applicationHTML = `
 const secondContainer = document.querySelector("#newContainer")
 const newApplicationHTML = `
 <section class="servicesArea">
-    <h2 class="servicesArea--title">Services</h2>
     ${listServiceAreasOnSite()}
 </section>
 `
@@ -50,3 +49,31 @@ document.addEventListener(
 )
 
 //add click event that displays all park areas where a service is available.
+
+document.addEventListener(
+    "click",
+    (clickEvent) => {
+        const itemClicked = clickEvent.target
+        if (itemClicked.id.startsWith("serviceName")) {
+            
+            
+        }
+    }
+)
+
+//window.alert(`${} is offered in ${}.`)
+
+// for (const service of services) {
+//         //debugger
+//         for (const singleLoop of areaService) {
+//             //debugger
+//             if (singleLoop.serviceId === service.id)
+//             serviceSectionHTML += `${service.name}`
+//         }
+//     }
+//     serviceSectionHTML+= `</section>`
+//     return serviceSectionHTML
+// }
+
+// let areas = []
+// areas.push(singleLoop.areaId)
