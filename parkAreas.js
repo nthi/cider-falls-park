@@ -12,7 +12,7 @@ const parkAreas = getParkAreas()
 export const ParkAreaList = () => {
 	let parkAreaHTML = `<section class="parkArea--main">`
 	for (const area of parkAreas) {
-	parkAreaHTML+= `<section class="parkArea--${area.name}"> <h3>${area.name}</h3> <p>${getAllAreaServices(area.id)}</p> </section>`
+	parkAreaHTML+= `<section class="parkArea--${area.name}"> <h3 id="titleArea">${area.name}</h3> <p>${getAllAreaServices(area.id)}</p> </section>`
 	//call that function with param area.id
 	//bridge table loop, if aid === bt.aid
 	//service loop, if bt.si === s.id

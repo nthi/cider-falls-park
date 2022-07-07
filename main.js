@@ -24,3 +24,20 @@ const applicationHTML = `
 //add all html sections in applicationHTML
 
 mainContainer.innerHTML = applicationHTML
+
+//add click event that displays how many guests are in a park area at time of click
+
+//random number out of 16
+//Math.floor(Math.random()* 17)
+document.addEventListener(
+    "click",
+    (clickEvent) => {
+        const itemClicked = clickEvent.target
+        if (itemClicked.id.startsWith("titleArea")) {
+            let randomGuestNum = Math.floor(Math.random()*17)
+            window.alert(`There are ${randomGuestNum} guests in this area.`)
+        }
+    }
+)
+
+//add click event that displays all park areas where a service is available.
