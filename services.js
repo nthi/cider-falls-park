@@ -41,3 +41,26 @@ export const getAllAreaServices = (areaID) => {
 //Should return html string containing all services for a particular park area
 
 //then I need to find a way to get that html string added to the Park Areas html.
+
+//add html section above park area grid that lists services. then add click event displaying which areas support which service.
+
+//serviceAreaBridge holds all service/area combos.
+//for loop services
+//for each service, for loop bridge table
+//if bridge table serviceId === serviceID
+//then send that bridge table's areaID to the html string
+
+export const listServiceAreasOnSite = () => {
+    let serviceSectionHTML = `<section id="listServices">`
+    for (const service of services) {
+        for (const singleLoop of areaService) {
+            if (singleLoop.serviceId === services.id)
+            serviceSectionHTML += `${service}`
+        }
+    }
+    serviceSectionHTML+= `</section>`
+    return serviceSectionHTML
+}
+
+// let areas = []
+// areas.push(singleLoop.areaId)

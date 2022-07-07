@@ -31,6 +31,23 @@ rose color: #F5006A */
 .content {
     font-family: Verdana, Geneva, Tahoma, sans-serif;
     display:flex;
+    flex-flow: row nowrap;
+    width: 100%;
+    color:#41393E;
+}
+
+.servicesArea {
+    display:flex;
+    flex-flow: row nowrap;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    background-color:#F1A96A;
+    color:#41393E;
+    padding-left: 10px;
+}
+
+.content--lower {
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    display:flex;
     flex-flow: row;
     justify-content: space-between;
     width: 100%;

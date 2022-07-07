@@ -1,5 +1,6 @@
 import { ParkAreaList } from "./parkAreas.js"
 import { GuestList } from "./guests.js"
+import { listServiceAreasOnSite } from "./services.js"
 
 //don't forget document.querySelector(class or id I designate here)
 //don't forget addEventListener. Which module? or in here?
@@ -9,21 +10,29 @@ const mainContainer = document.querySelector("#container")
 const applicationHTML = `
 
 <section class="content">
-    <section class="parkArea">
-        <h2 class="parkArea--title">Park Areas</h2>
-        ${ParkAreaList()}
-    </section>
-    <section class="guestArea">
-        <h2>Guests</h2>
-        ${GuestList()}
-    </section>
+        <section class="parkArea">
+            <h2 class="parkArea--title">Park Areas</h2>
+            ${ParkAreaList()}
+        </section>
+        <section class="guestArea">
+            <h2>Guests</h2>
+            ${GuestList()}
+        </section>
 </section>
-
-
 `
+
+const secondContainer = document.querySelector("#newContainer")
+const newApplicationHTML = `
+<section class="servicesArea">
+    <h2 class="servicesArea--title">Services</h2>
+    ${listServiceAreasOnSite()}
+</section>
+`
+
 //add all html sections in applicationHTML
 
 mainContainer.innerHTML = applicationHTML
+secondContainer.innerHTML = newApplicationHTML
 
 //add click event that displays how many guests are in a park area at time of click
 
